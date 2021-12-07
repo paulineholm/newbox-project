@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewsboxTimes | Newsbox</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="alternate stylesheet" href="/css/themes/light.css" disabled="false">
+    <link rel="alternate stylesheet" href="/css/themes/dark.css" disabled="true">
+</head>
+<body>
+
+    <!--Icons:
+    inbox: <i class="fas fa-inbox"></i>
+    settings: <i class="fas fa-cog"></i>
+    tilbage: <i class="fas fa-chevron-left"></i>
+    trash: <i class="fas fa-trash"></i>-->
+
+    <!--Header-->
+
+    <header class="head">
+        <p class="head__leftBtn">
+            <a href="archive" class="head__link"><i class="fas fa-inbox"></i></a>
+        </p>
+        <p class="head__title">Newsbox</p>
+        <p class="head__rightBtn">
+            <a href="settings" class="head__link">
+            <i class="fas fa-cog"></i></a>
+        </p>
+    </header>
+
+    <!--Søgefeltet-->
+
+    <form class="search__form" action="#">
+        <input type="text" placeholder="Search news" name="search" class="search__input">
+        <button class="search__btn" type="submit"><i class="fa fa-search"></i></button>
+    </form>
+    
+    <!--Hovedindhold-->
+    <main class="content">
+        <section class="cat">
+            <header class="cat__title cat__title--top">
+                <div class="cat__iconShadow">
+                <i class="fas fa-globe-europe cat__icon1"></i></div>
+                <p class="cat__catName">World</p>
+                <i class="fas fa-chevron-right cat__icon2"></i>
+                <i class="fas fa-chevron-down cat__icon3"></i>
+            </header>
+            <article class="cat__articleWorld cat__articleGen">
+
+            </article>
+        </section>
+
+        <section class="cat">
+            <header class="cat__title">
+                <div class="cat__iconShadow">
+                <i class="fas fa-heartbeat cat__icon1"></i></div>
+                <p class="cat__catName">Health</p>
+                <i class="fas fa-chevron-right cat__icon2"></i>
+                <i class="fas fa-chevron-down cat__icon3"></i>
+            </header>
+            <article class="cat__articleHealth cat__articleGen">
+
+            </article>
+        </section>
+
+        <section class="cat">
+            <header class="cat__title">
+                <div class="cat__iconShadow">
+                <i class="fas fa-volleyball-ball cat__icon1"></i></div>
+                <p class="cat__catName">Sport</p>
+                <i class="fas fa-chevron-right cat__icon2"></i>
+                <i class="fas fa-chevron-down cat__icon3"></i>
+            </header>
+            <article class="cat__articleSport cat__articleGen">
+
+            </article>
+        </section>
+
+
+        <section class="cat">
+            <header class="cat__title">
+                <div class="cat__iconShadow">
+                <i class="fas fa-user-tie cat__icon1"></i></div>
+                <p class="cat__catName">Business</p>
+                <i class="fas fa-chevron-right cat__icon2"></i>
+                <i class="fas fa-chevron-down cat__icon3"></i>
+            </header>
+            <article class="cat__articleBusiness cat__articleGen">
+
+            </article>
+        </section>
+
+        <section class="cat">
+            <header class="cat__title">
+                <div class="cat__iconShadow">
+                <i class="fas fa-landmark cat__icon1"></i></div>
+                <p class="cat__catName">Science</p>
+                <i class="fas fa-chevron-right cat__icon2"></i>
+                <i class="fas fa-chevron-down cat__icon3"></i>
+            </header>
+            <article class="cat__articleScience cat__articleGen">
+
+            </article>
+        </section>
+
+    </main>
+    <script src="https://kit.fontawesome.com/e8f82b2591.js" crossorigin="anonymous"></script>
+    <script src="/js/app.js"></script>
+</body>
+</html>
