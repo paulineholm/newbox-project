@@ -1,4 +1,10 @@
-NETLIFY link: https://newsbox-pholm.netlify.app
+## News Box
+
+A news app, that uses New York Times API to give user overview at the news. School project.
+
+deployed at https://newsbox-pholm.netlify.app
+
+Description of the task (provided by school - in Danish only)
 
 
 
